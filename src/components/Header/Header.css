@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.mainheader {
+    background-color: #191e33;
+    color: white;
+    height: 70px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.header-category {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 15px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-category a {
+    color: white;
+    text-decoration: none;
+    position: relative; /* Ensure position relative for cart icon to position cart count */
+}
+
+.header-category a:hover {
+    color: #FFBF00;
+}
+
+.header-category li {
+    padding: 25px;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.header-category li:hover {
+    color: #FFBF00;
+    background-color: #141728;
+}
+
+.header-category li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #FFBF00;
+    transition: width 0.3s;
+}
+
+.header-category li:hover::after {
+    width: 100%;
+}
+
+.iconsearch {
+    margin-left: 80px;
+}
+
+.iconsearch .faMagnifyingGlass,
+.iconsearch .faCartShopping {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.logotitle {
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.products .dropdown {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #191e33;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style: none;
+    margin-top: 5px;
+}
+
+.products .dropdown li {
+    padding: 12px 24px;
+    color: white;
+    background-color: #191e33;
+    transition: background-color 0.3s;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.products .dropdown li:hover {
+    background-color: #141728;
+    height: 100%;
+}
+
+.products:hover .dropdown {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon .cart-item-count {
+    position: absolute;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 500;   
+}
+
+.cart-item-count {
+    padding-top: 3px;
+    padding-left: 5px;
+    font-size: 180px;
+}
+
+.cartclass {
+    position: relative;
+}
+
+.carticonclass {
+    font-size: 24px;
+}
+
+.cartclass:hover .cart-item-count {
+    color: #FFBF00;
+}
+
+.cartclass:hover {
+    color: #FFBF00;
+}

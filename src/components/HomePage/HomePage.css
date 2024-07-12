@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.mainhomepage {
+    position: relative;
+    background-image: linear-gradient(rgba(25, 30, 51, 1), rgba(25, 30, 51, 0.8), rgba(25, 30, 51, 0.2)), url('../../assets/msi.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto; /* Adjust height based on content */
+    min-height: 100vh; /* Ensure it covers at least 100% of the viewport height */
+    color: white;
+    text-align: right;
+}
+
+.firstpc {
+    padding-top: 80px;
+    padding-right: 250px;
+    text-align: right;
+}
+
+.secondpc {
+    padding-top: 25px;
+    padding-right: 250px;
+    text-align: right;
+}
+
+.prices {
+    margin-top: 100px;
+    margin-right: 250px;
+    text-align: right;
+    color: #FFBF00;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+.addtocart {
+    color: black;
+    background-color: #FFBF00;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: right;
+    display: inline-block;
+    margin-right: 250px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.cart-icon {
+    color: black;
+    padding-left: 5px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFBF00;
+    background-color: #191e33;
+    padding-top: 60px;
+    width: 100%;
+}
+
+.pcontainer {
+    width: 90%; /* Use percentage for responsive design */
+    max-width: 1100px;
+    overflow: hidden; /* Prevent content from overflowing */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pc-panel {
+    flex: 1 1 80%; /* Allow panels to grow and shrink */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+    margin: 10px;
+    background-color: #FFBF00;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px; /* Adjust the max width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boc {
+    margin-bottom: 60px;
+}
+
+.pc-panel img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #131625;
+    color: #FFBF00;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 50px;
+}
+
+.abus {
+    padding-top: 60px;
+    background-color: #131625;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFBF00;
+}
+
+.aboutus-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 800px;
+}
+
+.moreinfos {
+    text-align: left;
+    padding: 0 20px;
+    /* margin: 10px 0; */
+}
+
+.ourh1 {
+    color: #FFBF00;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #191e33;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ouradv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191e33;
+    color: #FFBF00;
+    /* padding: 60px 0; */
+    padding-bottom: 80px;
+}
+
+
+.advcategory {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFBF00;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.ccicon {
+    font-size: 75px;
+    color: #191e33;
+}
+
+.adv-text {
+    margin-top: 10px;
+    color: #FFBF00;
+    font-size: 24px;
+}

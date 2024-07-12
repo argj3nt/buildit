@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: #191e33; 
+}
+
+.maincart {
+    margin-top: 100px;
+    background-color: #191e33;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.cart {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    background-color: #232742;
+    border-radius: 15px;
+    color: white;
+    padding: 20px; 
+}
+  
+.cart h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffbf00; 
+    text-align: center;
+}
+  
+.cart p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+  
+.cart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 40px 0;
+    background-color: #191e33;
+    color: #ffffff;
+    border-radius: 5px;
+}
+  
+.item-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    margin-right: 20px; 
+}
+  
+.item-details h3 {
+    font-size: 22px;
+}
+  
+.item-details .price {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cartbutton, .paybutton {
+    font-weight: 600;
+    background-color: #ffbf00;
+    color: #191e33; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.cartbutton:hover, .paybutton:hover {
+    background-color: #e6a900;
+}
+
+.paybutton {
+    text-align: right;
+    align-items: right;
+}
+
+.total {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.total h3 {
+    font-size: 28px;
+    color: #ffbf00;
+}
+
+.spanprice {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+/* 
+.cart-item {
+    margin-bottom: 10px;
+} */
