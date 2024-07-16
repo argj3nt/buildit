@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.abustxt, 
+.h1abs {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    margin: 70px;
+    margin-top: 10px;
+    /* padding-right: 800px; */
+    margin-bottom: 100px;
+    color: white;
+}
+
+.imgbuild {
+    width: 700px;
+    height: 100%;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+

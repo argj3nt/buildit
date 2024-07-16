@@ -12,6 +12,9 @@ import Motherboard from './components/Data/motherboard';
 import Powersupply from './components/Data/powersupply';
 import { CartProvider } from './components/CartContext/CartContext';
 import Cart from './components/Cart/Cart';
+import Support from './components/Support/Support';
+import Aboutus from './components/Aboutus/Aboutus';
+import Keyboard from './components/Data/Keyboard';
 
 const App = () => {
   return (
@@ -22,12 +25,18 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/category/:categoryName" element={<Products />} />
         <Route path="/category/case" element={<Case />} />
+        µ<Route path="/category/case" element={<Case />} />
         <Route path="/category/case-fan" element={<CaseFan />} />
         <Route path="/category/cpu-cooler" element={<CpuCooler />} />
         <Route path="/category/memory" element={<Memory />} />
         <Route path="/category/motherboard" element={<Motherboard />} />
         <Route path="/category/powersupply" element={<Powersupply />} />
+        <Route path="/support" element={< Support />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/aboutus" element={< Aboutus />} />
+        <Route path="/category/keyboard" element={<Keyboard />} />
+        
+
       </Routes>
       <Footer />
       {/* <Products /> */}

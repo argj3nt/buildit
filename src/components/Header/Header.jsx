@@ -27,7 +27,16 @@ const Header = () => {
               <li><Link to="/category/powersupply">Power-Supply</Link></li>
             </ul>
           </li>
-          <li>NEWS</li>
+          <li className='products'>
+            PERIPHERIQUE
+            <ul className='dropdown'>
+              <li><Link to="/category/keyboard">Keyboard</Link></li>
+              <li><Link to="/category/Case-Fan">Mouse</Link></li>
+              <li><Link to="/category/CPU">Headphones</Link></li>
+              <li><Link to="/category/cpu-cooler">Monitor</Link></li>
+              <li><Link to="/category/Memory">Speakers</Link></li>
+            </ul>
+          </li>
           <li>ABOUT US</li>
           <li>SUPPORT</li>
           <li className="iconsearch">
